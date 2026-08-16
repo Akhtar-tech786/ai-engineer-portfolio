@@ -2,13 +2,13 @@ import type { Profile, NavItem } from "@/types";
 
 // Fill these in with your real information before deploying.
 export const profile: Profile = {
-  name: "[YOUR NAME]",
-  role: "[YOUR ROLE]",
-  location: "[YOUR LOCATION]",
-  email: "[YOUR EMAIL]",
-  github: "[YOUR GITHUB]",
-  linkedin: "[YOUR LINKEDIN]",
-  resumeUrl: "[RESUME PDF URL]",
+  name: "Akhtar Ali",
+  role: "Ai-Engineer",
+  location: "Delhi-NCR",
+  email: "ai.engineer.39@gmail.com",
+  github: "https://github.com/Akhtar-tech786",
+  linkedin: "https://www.linkedin.com/in/akhtar-ali01",
+  resumeUrl: "https://drive.google.com/file/d/1Wi5R3WY06hG6LCOJV3AHspo1FYwFmHwm/view?usp=drive_link",
 };
 
 export const navItems: NavItem[] = [
