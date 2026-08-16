@@ -8,14 +8,8 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: "data-ml",
-    title: "Data & Machine Learning",
-    skills: [
-      "Pandas",
-      "NumPy",
-      "Scikit-learn",
-      "XGBoost",
-      "PyTorch",
-    ],
+    title: "Data & ML",
+    skills: ["Pandas", "NumPy", "Scikit-learn", "XGBoost", "PyTorch"],
   },
   {
     id: "ai-engineering",
@@ -28,23 +22,28 @@ export const skillCategories: SkillCategory[] = [
       "AI Agents",
       "Prompt Engineering",
       "LLM Evaluation",
-      "Hugging Face",
     ],
   },
   {
     id: "backend",
-    title: "Backend & APIs",
+    title: "Backend",
     skills: ["FastAPI", "REST APIs", "Docker"],
   },
   {
     id: "mlops-cloud",
-    title: "MLOps & Cloud",
+    title: "MLOps / Cloud",
+    skills: ["Git", "GitHub Actions", "MLflow", "AWS", "CI/CD"],
+  },
+  {
+    id: "ai-tools",
+    title: "AI Tools & Infrastructure",
     skills: [
-      "Git",
-      "GitHub Actions",
-      "MLflow",
-      "AWS",
-      "CI/CD",
+      "Hugging Face",
+      "LangChain",
+      "LlamaIndex",
+      "PostgreSQL",
+      "Redis",
+      "Kubernetes",
     ],
   },
 ];
