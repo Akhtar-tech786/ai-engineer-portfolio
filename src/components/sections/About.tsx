@@ -12,10 +12,10 @@ export function About() {
 
         <div className="mt-6 space-y-5 text-base leading-relaxed text-ink-soft">
           <p>
-            I'm {profile.name !== "[YOUR NAME]" ? profile.name : "an AI engineer and data scientist"}
-            {" "}— [add a 2–3 sentence background: your path into AI/data,
-            what you studied or previously worked on, and what drew you to
-            production AI systems specifically].
+            I'm {profile.name !== "Akhtar Ali" ? profile.name : "an AI engineer and data scientist"}
+            {" "}— My journey into AI engineering began with a strong interest in data, machine learning, and building intelligent 
+            systems. Through my work and studies, I developed a foundation in AI and software engineering, which led me to focus on
+            production AI—turning models and ideas into reliable, scalable systems that solve real-world problems.
           </p>
           <p>
             I specialize in taking machine learning and LLM-based systems
