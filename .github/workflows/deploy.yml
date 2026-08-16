@@ -35,7 +35,7 @@ jobs:
         # Update this to match your repository name, or remove the env
         # block entirely if deploying to a custom domain / user page.
         env:
-          VITE_BASE_PATH: "/portfolio/"
+          VITE_BASE_PATH: "ai-engineer-portfolio"
         run: npm run build
 
       - name: Setup Pages
