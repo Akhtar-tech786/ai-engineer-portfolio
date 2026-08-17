@@ -2,22 +2,22 @@ import type { ExperienceItem, Principle, ArchitectureStep } from "@/types";
 
 // No employers, dates, or achievements have been invented — replace every
 // bracketed placeholder with your real experience before publishing.
-export const experienceItems: ExperienceItem[] = [
-  {
-    company: "[COMPANY]",
-    role: "[JOB TITLE]",
-    startDate: "[START DATE]",
-    endDate: "[END DATE]",
-    achievements: ["[ACHIEVEMENT]", "[ACHIEVEMENT]"],
-  },
-  {
-    company: "[COMPANY]",
-    role: "[JOB TITLE]",
-    startDate: "[START DATE]",
-    endDate: "[END DATE]",
-    achievements: ["[ACHIEVEMENT]", "[ACHIEVEMENT]"],
-  },
-];
+export const experienceItems: ExperienceItem[] = [ 
+  { 
+    company: "Daigonal.ai", 
+    role: "Data Analyst Intern", 
+    startDate: "October 2024", 
+    endDate: "October 2025", 
+    achievements: [ 
+      "Extracted, cleaned, and transformed 100K+ records per dataset from SQL databases, APIs, and data warehouses,improving data readiness for analysis by 35%.", "Designed and deployed 12+ interactive BI dashboards using Qlik Sense, enabling real-time tracking of 20+ KPIs across business units.", "Optimized ETL workflows and automated recurring reports, reducing manual reporting effort by 40%+.", "Delivered actionable insights through dashboards and reports, contributing to a 30% faster decision-making cycle.",
+    ], 
+  }, 
+  { 
+    company: "Ineuron", 
+    role: "Data Analyst Intern", 
+    startDate: "September 2023", 
+    endDate: "January 2024", 
+    achievements: [ "Collected and integrated data from multiple sources including SQL databases, APIs, and CSV files, handling datasets of 50K–80K records.", "Conducted exploratory data analysis using Python, Pandas, and NumPy to identify key trends and generate actionable business insights.", "Cleaned and preprocessed datasets, improving data quality and consistency by 25%+.", "Built 5+ analytical reports and dashboards, helping stakeholders track performance metrics effectively.", ], }, ];
 
 export const principles: Principle[] = [
   { title: "Clean code", description: "Readable, typed, and reviewed — code written for the next engineer, not just the compiler." },
